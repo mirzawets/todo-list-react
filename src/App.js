@@ -25,7 +25,7 @@ export default class App extends React.Component {
         setTimeout(() => {
           this.setState({ todos: todosList });
           this.setState({ loading: false });
-        }, 1000);
+        }, 2000);
       });
   }
 
